@@ -1,0 +1,20 @@
+<template>
+  <list class="list">
+    <slot></slot>
+  </list>
+</template>
+
+<style lang="less">
+  @import "./style.less";
+</style>
+
+<script>
+  export default {
+    props: {
+      direction: {
+        type: String,
+        default: "column"
+      }
+    }
+  };
+</script>

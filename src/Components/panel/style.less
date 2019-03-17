@@ -1,0 +1,27 @@
+@import "../_styles/_base.less";
+
+.panel {
+    width: 100%;
+    flex-direction: column;
+    &-title {
+        font-size: @size-font-base;
+        padding: 20px 16px 10px;
+        text {
+            color: @title-color;
+        }
+    }
+    &-hide-top {
+        padding-top: 0;
+    }
+    &-content {
+        background-color: @base-background-color;
+        flex-direction: column;
+        border-color: @border-color-base;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+    }
+    &-no-border {
+        border-width: 0;
+    }
+
+}

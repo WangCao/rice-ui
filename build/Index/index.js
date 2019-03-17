@@ -112,11 +112,7 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = {
-  ".list": {
-    "backgroundColor": "#ffffff"
-  }
-}
+throw new Error("Module build failed (from ./node_modules/_less-loader@4.1.0@less-loader/dist/cjs.js):\n\r\n\r\n.list {\r\nbackground-color: @base-background-color;\r\n                ^\r\nVariable @base-background-color is undefined\r\n      in D:\\work\\github\\rice-ui\\src\\Components\\list\\style.less (line 4, column 18)");
 
 /***/ }),
 
@@ -127,59 +123,7 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = {
-  ".panel": {
-    "width": "100%",
-    "flexDirection": "column"
-  },
-  ".panel-title": {
-    "fontSize": "14px",
-    "paddingTop": "20px",
-    "paddingRight": "16px",
-    "paddingBottom": "10px",
-    "paddingLeft": "16px"
-  },
-  ".panel-title text": {
-    "color": "#1c2438",
-    "_meta": {
-      "ruleDef": [
-        {
-          "t": "a",
-          "n": "class",
-          "i": false,
-          "a": "element",
-          "v": "panel-title"
-        },
-        {
-          "t": "d"
-        },
-        {
-          "t": "t",
-          "n": "text"
-        }
-      ]
-    }
-  },
-  ".panel-hide-top": {
-    "paddingTop": "0px"
-  },
-  ".panel-content": {
-    "backgroundColor": "#ffffff",
-    "flexDirection": "column",
-    "borderTopColor": "#dddee1",
-    "borderRightColor": "#dddee1",
-    "borderBottomColor": "#dddee1",
-    "borderLeftColor": "#dddee1",
-    "borderTopWidth": "1px",
-    "borderBottomWidth": "1px"
-  },
-  ".panel-no-border": {
-    "borderTopWidth": "0px",
-    "borderRightWidth": "0px",
-    "borderBottomWidth": "0px",
-    "borderLeftWidth": "0px"
-  }
-}
+throw new Error("Module build failed (from ./node_modules/_less-loader@4.1.0@less-loader/dist/cjs.js):\n\r\n\r\n    &-content {\r\n        background-color: @base-background-color;\r\n                        ^\r\nVariable @base-background-color is undefined\r\n      in D:\\work\\github\\rice-ui\\src\\Components\\panel\\style.less (line 17, column 26)");
 
 /***/ }),
 

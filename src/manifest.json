@@ -15,9 +15,12 @@
     "logLevel": "debug"
   },
   "router": {
-    "entry": "Index",
+    "entry": "Demos",
     "pages": {
-      "Index": {
+      "Demos": {
+        "component": "index"
+      },
+      "Demos/switch": {
         "component": "index"
       }
     }

@@ -2,7 +2,7 @@
   "name": "rice-ui",
   "version": "1.0.0",
   "subversion": {
-    "toolkit": "0.6.4"
+    "toolkit": "0.6.12"
   },
   "description": "",
   "scripts": {
@@ -17,8 +17,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.12.1",
     "eslint-plugin-hybrid": "0.0.5",
-    "hap-toolkit": "^0.6.4",
-    "less": "^3.9.0",
+    "hap-toolkit": "^0.6.12",
+    "less": "^3.10.3",
     "less-loader": "^5.0.0"
   }
 }
